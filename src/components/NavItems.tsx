@@ -20,11 +20,11 @@ const NavItems = () => {
                         setActiveIndex(i)
                     }
                 }
-
+          const close = () => setActiveIndex(null)
           const isOpen = i === activeIndex
 
             return (
-                <NavItem  category={category} key={category.value} handleOpen={handleOpen} isOpen={isOpen} isAnyOpen={isAnyOpen} />
+                <NavItem close={close} category={category} key={category.value} handleOpen={handleOpen} isOpen={isOpen} isAnyOpen={isAnyOpen} />
             )
             
             })
