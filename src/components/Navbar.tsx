@@ -19,7 +19,7 @@ const Navbar = () => {
                     </Link>
                   </div>
 
-                  <div className='hidden z-50 lg:ml- lg:block lg:self-stretch'>
+                  <div className='hidden z-50 lg:ml-0 lg:block lg:self-stretch'>
                     <NavItems />
                   </div>
                 </div>
